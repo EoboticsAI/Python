@@ -17,3 +17,7 @@ Example:
 
 decimal_num = int(input("Enter Decimal No: "))
 print("Binary No is:", bin(decimal_num)[2:])
+
+
+
+#Happy Coding!
