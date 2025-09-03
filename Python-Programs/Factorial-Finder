@@ -1,0 +1,27 @@
+# Program to find all divisors of a given number
+
+def find_divisors(n):
+    """
+    Returns a list of all divisors of the given number `n`.
+
+    Parameters:
+    n (int): The number for which to find divisors.
+
+    Returns:
+    list: A list containing all positive integers that divide `n` without a remainder.
+    """
+    divisors = []
+    for i in range(1, n + 1):
+        # Check if i divides n without remainder
+        if n % i == 0:
+            divisors.append(i)
+    return divisors
+
+# Example usage
+number = 12
+print(f"Divisors of {number}: {find_divisors(number)}")
+
+
+
+#Happy Coding
+#EoboticsAI
